@@ -1,6 +1,5 @@
 package com.example.tmdt_project.ServiceImp;
 
-import com.example.tmdt_project.Model.DTO.UserDTO;
 import com.example.tmdt_project.Model.Entity.User;
 import com.example.tmdt_project.Model.MD5.MD5encriptor;
 import com.example.tmdt_project.Repository.UserRepository;
@@ -25,6 +24,16 @@ public class UserServiceImp implements UserService {
             user.setPassword(result);
             return userRepository.save(user);
         }
+        return null;
+    }
+
+    @Override
+    public User findByUserName(String name) {
+        return userRepository.findByUserName(name);
+    }
+
+    @Override
+    public User updateUser(User user) {
         return null;
     }
 

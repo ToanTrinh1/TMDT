@@ -8,4 +8,6 @@ import java.security.NoSuchAlgorithmException;
 
 public interface UserService {
     public User addUser(User user) throws UnsupportedEncodingException, NoSuchAlgorithmException;
+    public User findByUserName(String name);
+    public User updateUser(User user);
 }
