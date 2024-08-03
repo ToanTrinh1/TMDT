@@ -1,11 +1,12 @@
 import React from 'react';
 import './Rightbox.css'
+import product from './img_test/test.png'
 // Mảng dữ liệu chứa thông tin các sản phẩm
 const products = [
     {
         name: 'Sản phẩm A',
         price: 100000,
-        image: 'path/to/image1.jpg'
+        image: product
     },
     {
         name: 'Sản phẩm B',
