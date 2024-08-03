@@ -1,4 +1,4 @@
-package com.example.tmdt_project.Model.MD5;
+package com.example.tmdt_project.model.MD5;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;

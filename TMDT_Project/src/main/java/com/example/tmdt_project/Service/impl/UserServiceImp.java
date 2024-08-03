@@ -1,7 +1,7 @@
-package com.example.tmdt_project.ServiceImp;
+package com.example.tmdt_project.Service.impl;
 
-import com.example.tmdt_project.Model.Entity.User;
-import com.example.tmdt_project.Model.MD5.MD5encriptor;
+import com.example.tmdt_project.model.Entity.User;
+import com.example.tmdt_project.model.MD5.MD5encriptor;
 import com.example.tmdt_project.Repository.UserRepository;
 import com.example.tmdt_project.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,11 +28,9 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    public User findByusername(String name) {
-        return userRepository.findByUsername(name);
+    public User findByUsername(String name) {
+        return null;
     }
-
-
 
     @Override
     public User updateUser(User user) {

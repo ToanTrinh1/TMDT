@@ -1,7 +1,7 @@
-package com.example.tmdt_project.Controller;
+package com.example.tmdt_project.controller;
 
-import com.example.tmdt_project.Model.Entity.User;
-import com.example.tmdt_project.Model.MD5.MD5encriptor;
+import com.example.tmdt_project.model.Entity.User;
+import com.example.tmdt_project.model.MD5.MD5encriptor;
 import com.example.tmdt_project.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

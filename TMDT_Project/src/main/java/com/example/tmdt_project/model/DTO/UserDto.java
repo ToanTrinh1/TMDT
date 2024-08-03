@@ -1,18 +1,16 @@
-package com.example.tmdt_project.Model.DTO;
+package com.example.tmdt_project.model.DTO;
 
-import com.example.tmdt_project.Model.Entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.swing.*;
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class UserDTO {
+public class UserDto {
     public String userName;
     public String passWord;
 
