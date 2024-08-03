@@ -1,0 +1,27 @@
+.sidebar {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 5px;
+    float: left;
+    /* Các thuộc tính khác để định dạng sidebar */
+}
+.title {
+    font-size: 30px;
+}
+.checkbox{
+    display: flex;
+    justify-content: left;
+    margin-top: 0;
+}
+.sidebar-container {
+    display: flex; /* Enable flexbox layout */
+}
+.title_01{
+    justify-content: left;
+}
+
+

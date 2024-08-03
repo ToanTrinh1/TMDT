@@ -1,0 +1,9 @@
+.right-box{
+    background-color: #f0f0f0; /* Màu nền */
+    background-size: cover; /* Cách hiển thị hình ảnh */
+    background-repeat: no-repeat; /* Lặp lại hình ảnh */
+    background-position: center; /* Vị trí hình ảnh */
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1
+}

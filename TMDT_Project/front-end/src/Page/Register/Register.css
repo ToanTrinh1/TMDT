@@ -1,0 +1,39 @@
+/* Register.css */
+
+.container {
+    width: 400px; /* Điều chỉnh độ rộng nếu cần */
+    /* Căn giữa form theo chiều ngang */
+    margin: 10px auto 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Bóng đổ nhẹ */
+}
+
+.toan {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%; /* Make input fields full width */
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Rounded corners for input fields */
+}
+
+.btn {
+    display: block; /* Make button full width */
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+}

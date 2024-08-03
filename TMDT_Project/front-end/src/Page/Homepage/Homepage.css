@@ -1,0 +1,27 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.running-text {
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: center
+}
+
+.checkbox{
+    margin: 10px;
+}
+.right-box{
+    background-size: cover; /* Cách hiển thị hình ảnh */
+    background-repeat: no-repeat; /* Lặp lại hình ảnh */
+    background-position: center; /* Vị trí hình ảnh */
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Homepage_container{
+    display: flex;
+}
